@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'lato', serif;
+  font-size: 62.5%;
+}
+
+.container {
+  display: relative;
+  height: 85vh;
+  width: 80vw;
+  max-width: 600px;
+  margin: 5% auto;
+  border-radius: 1rem;
+  border: 2px solid #000;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.myImg {
+  font-size: 2rem;
+  color: #999;
+
+  line-height: 50vh;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.img-container {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  border-radius: 1rem;
+  border: 2px dashed #777;
+}
+
+.range-name {
+  display: flex;
+  gap: 1rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+input[type='range']:hover {
+  cursor: pointer;
+}
+
+#button {
+  background-color: rgb(238, 238, 238);
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
