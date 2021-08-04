@@ -16,7 +16,7 @@ newImg.addEventListener('change', function () {
   //console.log(file);
 
   //valid image format
-  let validExtension = ['jpeg', 'png', 'gif', 'svg'];
+  let validExtension = ['jpeg', 'png', 'gif', 'svg', 'jpg'];
 
   let extension = file.name.substring(file.name.lastIndexOf('.') + 1);
   let matchedExtension = validExtension.includes(extension);
